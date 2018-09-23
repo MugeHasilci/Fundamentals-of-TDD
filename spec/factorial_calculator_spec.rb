@@ -28,7 +28,14 @@ describe Calculator do
   describe "#factorial" do
     it "returns 1 when given 0" do
       calc = Calculator.new
+
       expect(calc.factorial(0)).to eq(1)
     end
+
+    it "return 120 when given 0" do
+    calc = Calculator.new
+
+    expect(calc.factorial(5)).to eq(120)
   end
+end
 end
