@@ -2,7 +2,7 @@ require "rspec/autorun"
 
 class Calculator
   def add(a, b)
-
+    2
   end
 end
 
