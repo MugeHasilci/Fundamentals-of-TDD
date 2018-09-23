@@ -1,5 +1,12 @@
 require "rspec/autorun"
 
+class Calculator
+  def add(a, b)
+
+  end
+end
+
+
 describe Calculator do
   describe "#add" do
     it "adds two numbers" do
