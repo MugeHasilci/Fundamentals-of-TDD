@@ -14,5 +14,10 @@ describe Calculator do
 
       expect(calculator.add(1, 1)).to eq(2)
     end
+    it "returns the sum of two diffrent arguments" do
+      calc = Calculator.new
+
+      expect(calc.add(4,2)).to eq(6)
+    end
   end
 end
