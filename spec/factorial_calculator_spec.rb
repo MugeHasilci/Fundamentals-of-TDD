@@ -6,9 +6,12 @@ class Calculator
   end
 
   def factorial(n)
-    1
+    if n == 0
+      1
+    else
+      (1..n).reduce(:*)
+    end
   end
-
 end
 
 
